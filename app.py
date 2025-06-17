@@ -8,10 +8,6 @@ import numpy as np
 import streamlit as st
 from streamlit.components.v1 import html
 import warnings
-import os
-
-# Set working directory
-os.chdir(path=r"C:\Users\acer\Downloads")
 
 def run():
     st.set_page_config(
